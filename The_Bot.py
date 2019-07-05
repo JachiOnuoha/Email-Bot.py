@@ -23,7 +23,7 @@ body = doctest.docText
 msg.attach(MIMEText(body, 'plain'))
 
 # This sends attachments. It can be commented out
-filename = "C:/Users/Jachimike Onuoha/Downloads/Design 2.jpg"
+filename = "FILE PATH OF DESIRED ATTACHMENT "
 attachment = open(filename, 'rb')
 part = MIMEBase('application', 'octet-stream')
 part.set_payload((attachment).read())
